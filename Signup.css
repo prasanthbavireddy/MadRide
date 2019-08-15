@@ -14,12 +14,16 @@ margin:0 auto;
   opacity:0.8;
 }    
 .box{
+div {
+padding: 0 5px;
+line-height: 10px;
+}
 width:400px;
 height:420px;
-background: ;
-margin-top:100px; 
+background:  ;
+margin-top:px; 
 margin-left: 420px;
-opacity: 0.9;
+opacity:;
 text-align: center;
   border-radius:5px;
 }
@@ -31,10 +35,13 @@ text-align: center;
     font-size: 50px;
 }
 
-input[type="text"],input[type="email"],input[type="password"]{
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
  width:300px;
  height:25px;
- margin-bottom: 25px;
+ margin-bottom: 50px;
  font-size: 15px;
  border:1px solid black;
  padding-left: 45px;
@@ -52,6 +59,7 @@ input[type="text"],input[type="email"],input[type="password"]{
       cursor: pointer;
       width:150px;
       height:35px;
+   
       border: 1px solid black;
       font-size:20px;
       color: ash;
