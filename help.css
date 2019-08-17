@@ -1,0 +1,59 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'roboto', sans-serif;
+  color: #222;
+}
+
+
+footer{
+  background-color: #45AAF2;
+  color: white;
+  padding-top: 2rem;
+}
+
+footer img{
+  padding-bottom: 30px;
+}
+
+footer p{
+  font-size: 14px;
+}
+
+footer h5{
+  font-size: 16px;
+  font-weight: bold !important;
+}
+
+
+
+form .em{
+  box-shadow: 0px 0px 8px 3px #4c90c1;
+  padding-left: 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+
+.button2{
+  font-size: 14px;
+  color: white;
+  background-color: #434a55;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transform: translateY(-6px);
+  padding: 0px 10px;
+}
+
+.Copyright{
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 0.5px;
+  background-color: #434A55;
+}
+
+.container{
+  padding-left: 0;
+  margin-left: 0;
+}
