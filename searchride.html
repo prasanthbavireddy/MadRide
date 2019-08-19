@@ -10,6 +10,19 @@
       </input>
 
       <button name="submit" type="submit" id="Book a Ride-submit" data-submit="...Sending">Search</button>
+	  
+	  
   </form>
     </div>
+	</div>
+	<button name="BACK" type="submit" id="homepage" > BACK</button>
+	       
+	</div>	   
+	<script>
+document.getElementById("homepage").addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("homepage").innerHTML = window.location.replace("homepage.html");;
+}
+</script>
   
