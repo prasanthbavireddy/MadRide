@@ -1,0 +1,173 @@
+<script src="https://use.fontawesome.com/25b90f1671.js"></script>
+
+<style>
+.faq-heading {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: none;
+}
+
+.faq-subHeading {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #14181c;
+}
+
+.faqs li {
+  list-style-type: none;
+  
+}
+
+.faqs li.question {
+  cursor: pointer;
+  font-weight: bolder;
+  color: #f7931e;
+  
+}
+
+.faqs ul.box {
+  padding: 10px 0 10px 10px;
+  border: 1px solid black;
+  background-color: #1a1a1a;
+}
+
+.faqs li.answer {
+  padding-right: 25px;
+  margin-top: 20px;
+  color: white;
+}
+
+.faqs span.icon {
+  float: right;
+  width: 36px;
+  height: 26px;
+  padding-top: 10px;
+  margin-top: -10px;
+  padding-right: 15px;
+  color: #f7931e;
+}
+
+div.faqs {
+  padding: 0 10% 50px 10%;;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  
+}
+
+@media (max-width: 1200px) {
+  div.faqs {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+}
+
+.faqs .rotate { 
+/* Standard */
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+  z-index: 1000;
+}
+
+.faqs .reverse {
+  transform: rotate(0deg);
+  transition: all 0.5s ease;
+  z-index: 1000;
+}
+</style>  
+
+<h2 class="text-center faq-heading">See What People Ask to Us</h2>
+  <h1 class="text-center faq-subHeading">FAQS</h1>
+
+
+
+<div class="faqs">
+<div class="box-container-one">
+  <!-- Question 1 -->
+  <ul class="box">
+    <li class="question">How Does it work?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">Its simple and easy. You make a reservation with us online or over the phone, and receive an email confirming your trip details. Then your driver will show up on the specified date and time, in a private vehicle of your choosing, and provide you with a comfortable and luxurious way to travel.
+          </li>
+      </ul>
+
+  </ul>
+
+  <!-- Question 2 -->
+  <ul class="box">
+    <li class="question">Do I pay the driver when they arrive?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">All reservations are payed for with the provided credit card so there is no need to go through the payment process after you reach your destination. If by chance you do wish to pay the driver the full fare in cash, you may do so and your credit card will not be charged. As for the gratuity, you may select a percentage during your online reservation which will be charged on the provided credit card or you may choose to pay the gratuity to the driver in cash.
+          </li>
+      </ul>
+  </ul>
+
+  <!-- Question 3 -->
+  <ul class="box">
+    <li class="question">Is it possible to make it stop?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">Yess, a small charge of $20 will be charged for any stop on the way to your destination. Please let us know up front.
+          </li>
+      </ul>
+  </ul>
+
+  <!-- Question 4 -->
+  <ul class="box">
+    <li class="question">Do I bring my own child seat?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">No we provide child safety seat for no extra charge, but please let us know when you make your reservation.
+          </li>
+      </ul>
+  </ul>
+</div>
+
+<div class="box-container-two">
+  <!-- Question 5 -->
+  <ul class="box">
+    <li class="question">Do I have to share my ride?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">yes, these are all private ride.
+          </li>
+      </ul>
+  </ul>
+
+  <!-- Question 6 -->
+  <ul class="box">
+    <li class="question">Do you allow smoking?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i></span>
+    </li>
+      <ul>
+          <li class="answer">All of our vehicles are non-smoking.
+          </li>
+      </ul>
+  </ul>
+
+  <!-- Question 7 -->
+  <ul class="box">
+    <li class="question">What is your cancellation policy?
+      <span class="icon"><i class="fa fa-plus pull-right" aria-hidden="true"></i>
+   </span></li>
+      <ul>
+          <li class="answer">You must call us 2 hours before to cancel any ride, if you don’t call us we charge 30% of reservation to your card.
+          </li>
+      </ul>
+  </ul>
+</div>
+</div>
