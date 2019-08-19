@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('http://ridesharehero.com/wp-content/uploads/2016/05/.png');
+  background-size: cover;
+  opacity: .1;
+}
+
+@r: 30px;
+@color: #179cbb;
+@duration: 2s;
+.c {
+  position: relative;
+  transform: rotate(-90deg);
+  .center {
+    width: @r;
+    height: @r;
+    background-color: @color;
+    border-radius: 100%;
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+      background-color: @color;
+      animation: center @duration infinite;
+    }
+  }
+  .r {
+    width: @r/3;
+    height: @r/3;
+    background-color: @color;
+    position: absolute;
+    border-radius: 100%;
+    top: @r/3;
+    left: @r/3;
+    animation: rotate @duration infinite;
+  }
+  // TODO :P
+  //write a loop instead
+  .r1 {
+    animation-timing-function: cubic-bezier(.1, .0, .0, 0.9);
+  }
+  .r2 {
+    animation-timing-function: cubic-bezier(.1, .1, .8, 0.9);
+  }
+  .r3 {
+    animation-timing-function: cubic-bezier(.1, .2, .7, 0.9);
+  }
+  .r4 {
+    animation-timing-function: cubic-bezier(.1, .3, .6, 0.9);
+  }
+  .r5 {
+    animation-timing-function: cubic-bezier(.1, .4, .5, 0.9);
+  }
+}
+
+@keyframes center {
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translateX(600%) rotate(-0deg);
+  }
+  2% {
+    transform: rotate(0deg) translateX(600%) rotate(-0deg);
+  }
+  98% {
+    transform: rotate(360deg) translateX(600%) rotate(-360deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(600%) rotate(-360deg);
+  }
+}
