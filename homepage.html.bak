@@ -4,12 +4,11 @@
     <ul>
       <img class="m-r-3" src="">
       
-       <li><a href="searchride.html">SEARCH A RIDE</a></li>
-
-        <li><a href="shareride.html">SHARE A RIDE</a></li>
-        <li><a href="help.html">HELP</a></li>
-        <li><a href="faqs.html">FAQ'S</a></li>
-        <li><a href="modifiedlogin.html">SIGNOUT</a></li>
+        <li>SEARCH A RIDE</li>
+        <li>SHARE A RIDE</li>
+        <li>HELP</li>
+        <li>FAQ'S</li>
+        <li class="p-r-1">SIGNOUT</li>
     </ul>
     <div class="text-xs-center">
       <h1>RIDE SHARE</h1>
