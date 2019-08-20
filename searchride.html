@@ -1,16 +1,13 @@
-<link href="shareride.css" rel="stylesheet" type="text/css">
+<link href="searchride.css" rel="stylesheet" type="text/css">
 <div class="">
-  <form id="share a Ride" action="" method ="post">
-    <h3>SHARE YOUR RIDE</h3>
+  <form id="Share Ride" action="" method ="post">
+    <h3>SEARCH A RIDE</h3>
     <h4>ENTER YOUR RIDE DETAILS HERE-</h4>    
     
       <input placeholder="CITY NAME" type="text"tabindex="1" required autofocus>
       <input placeholder="DATE" type="text"tabindex="2" required>
-      <input placeholder="CAR MODEL" type="text"tabindex="3" required autofocus>
-      <input placeholder="RIDE DURATION" type="tel"tabindex="4" required>
-      <input placeholder=" ADDITIONAL DETAILS" type="text"tabindex="5" required></input>
 
-      <button name="submit" type="submit" id="Book a Ride-submit" data-submit="...Sending">Submit</button>
+      <button name="submit" type="submit" id="search123" > submit </button>
   </form>
     </div>
 	</div>
@@ -21,6 +18,13 @@ document.getElementById("homepage").addEventListener("click", myFunction);
 
 function myFunction() {
   document.getElementById("homepage").innerHTML = window.location.replace("homepage.html");;
+}
+</script>
+<script>
+document.getElementById("search123").addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("search123").innerHTML = window.location.replace("search123.html");;
 }
 </script>	
   
