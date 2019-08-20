@@ -1,0 +1,150 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("https://s3.amazonaws.com/digitaltrends-uploads-prod/2015/12/man-driving-in-car-in-the-city-ride-share-uber-lyft-getaround-zipcar.jpg");
+  background-size:cover;
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto 0 auto;  
+  width:100%; 
+  text-align:center;
+  margin: 20px 0px 20px 0px;   
+}
+;
+*{
+  margin:0;
+padding:0;
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webket-font-smoothing:antialiased;
+-moz-font-smoothing:antialiased;
+-o-font-smoothing:antialiased;
+font-smoothing:antialiased;
+text-rendering:optimizelegibility;
+}
+
+body {
+  
+font-family:"Open Sans", Helvetica, Arial,sans-serif;
+font-weight:300;
+font-size: 20px;
+line-height: 30px;
+color:#111;
+
+}
+
+.container{
+  
+max-width:400px;
+width:100%
+margin:0 auto;
+box position: relative;
+}table{
+    width: 100%;
+}
+
+table tr td{
+    position: relative;
+    min-height: 35px;
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+th { 
+    background: #030303; 
+    color: white; 
+    font-weight: bold; 
+}
+td, th { 
+    line-height: 35px;
+    vertical-align: middle; 
+    border: 1px solid white; 
+    text-align: left; 
+}
+
+@media screen and (max-width: 650px){
+thead {
+ display: none;
+ }<link href="shareride.css" rel="stylesheet" type="text/css">
+<div class="">
+  <form id="share a Ride" action="" method ="post">
+    
+    <h4>ENTER YOUR RIDE DETAILS HERE-</h4>  
+    <head>
+<title>Page Title</title>
+</head>  
+<table>
+    <thead>
+        <tr>
+            <td>CITY NAME</td>
+            <td>DATE</td>
+            <td>CAR MODEL</td>
+          <td>RIDE DURATION</td>
+          <td>FARE</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>toranto</td>
+            <td>19-08-2019</td>
+            <td>Honda city</td>
+          <td>6 hours</td>
+          <td>$45</td>
+         
+        </tr>
+        <tr>
+            <td>Brampton</td>
+            <td>22-08-2019</td>
+            <td>bentley</td>
+          <td>8 hours</td>
+          <td>$60</td>
+        </tr>
+        <tr>
+            <td>motreal</td>
+            <td>25-08-2019</td>
+            <td>polo</td>
+          <td>5 hours</td>
+          <td>$60</td>
+        </tr>
+    </tbody>
+</table>
+    
+
+
+    
+	</div>
+	<button name="BACK" type="submit" id="homepage" > BACK</button>
+	</div>
+<script>
+document.getElementById("homepage").addEventListener("click", myFunction);
+
+function myFunction() {
+document.getElementById("homepage").innerHTML = window.location.replace("searchride.html");;
+}
+</script>	
+  
+
+tr:nth-child(2n){
+ background: white;
+ }
+
+td {
+ /*вывод таблицы*/
+ display: block;
+ width: 50%;
+ padding-left: 50%;
+ position: relative;
+ }
+
+td:before {
+ position: absolute;
+ width: 45%;
+ padding-right: 10px;
+ left: 0;
+ white-space: nowrap;
+ content: attr(data-title);
+ }
+}
